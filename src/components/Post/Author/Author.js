@@ -12,7 +12,7 @@ const Author = () => {
       <p className={styles['author__bio']}>
         {author.bio}
         <a
-          className={styles['author__bio-twitter']}
+          className={styles['author__bio-linkedin']}
           href={getContactHref('linkedin', author.contacts.linkedin)}
           rel="noopener noreferrer"
           target="_blank"
