@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: '',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Rajnish Singh',
+  subtitle: 'I am a Data Scientist.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,25 +25,25 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Rajnish Singh',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'I am a Data Scientist.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+      // email: '',
+      // facebook: '#',
+      // telegram: '#',
+      // twitter: '#',
+      github: 'byionline',
+      // rss: '',
+      // vkontakte: '',
+      linkedin: 'krajnishsingh',
+      // instagram: '#',
+      // line: '',
+      // gitlab: '',
+      // weibo: '',
+      // codepen: '',
+      youtube: 'RajnishKumarSingh',
+      // soundcloud: '',
     }
   }
 };
