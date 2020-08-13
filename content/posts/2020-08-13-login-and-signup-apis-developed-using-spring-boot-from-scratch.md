@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Login and Signup APIs developed using Spring Boot from scratch "
-slug: Spring Boot
+slug: "login-and-signup-api-developed-using-spring-boot-from-scratch "
 draft: true
 date: 2020-08-13T15:45:54.895Z
 description: "Login and Signup APIs developed using Spring Boot from scratch "
