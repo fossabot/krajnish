@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://krajnish.netlify.app/',
+  url: 'https://netlify.app/',
   pathPrefix: '/',
   title: 'Blog by Rajnish Singh',
   subtitle: 'I am a Data Scientist.',
