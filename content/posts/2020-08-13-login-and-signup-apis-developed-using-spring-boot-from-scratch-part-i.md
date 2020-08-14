@@ -33,12 +33,18 @@ Open your terminal and type the following command to install Java 8.
 
 ```shell
 sudo apt install openjdk-8-jdk
+// to check the java version
+
+java -version
 ```
 
 Open your terminal and type the following command to install Java 11. You can install any version of your choice. In this series I am using Java 8.
 
 ```shell
 sudo apt install openjdk-11-jre-headless
+// to check the java version
+
+java -version
 ```
 
 ## Apache Maven
@@ -49,6 +55,9 @@ Open your terminal and type the following command to install [Maven](https://mav
 
 ```shell
 sudo apt install maven
+// to check the maven version
+
+mvn --version
 ```
 
 ## MySQL Installation and Setup
@@ -57,6 +66,9 @@ Open your terminal and type the following command to install [MySQL](https://www
 
 ```shell
 sudo apt-get install mysql-server
+// to check the mysql version
+
+mysql --version
 ```
 
 After installation is complete check if MySQL is running or not. Following command check the status of mysql service.
