@@ -136,3 +136,12 @@ show databases;
 ```
 
 ![MySQL Command Line Window with New User Permission](/media/mysql-3.jpg "MySQL Command Line Window with New User Permission")
+
+We are all set with our database setup.
+
+## IDE for Development
+
+For Eclipse
+
+* Go to [Eclipse](https://www.eclipse.org/downloads/) download page and download the setup file.
+* Extract the downloaded file.
