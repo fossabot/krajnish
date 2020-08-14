@@ -41,4 +41,45 @@ Open your terminal and type the following command to install Java 11. You can in
 sudo apt install openjdk-11-jre-headless
 ```
 
-``
+## Apache Maven
+
+It is a powerful tool for project management that is based on POM (project object model). It is used by Spring For project build, dependency and documentation.
+
+Open your terminal and type the following command to install [Maven](https://maven.apache.org/).
+
+```shell
+sudo apt install maven
+```
+
+## MySQL Installation and Setup
+
+Open your terminal and type the following command to install [MySQL](https://www.mysql.com/).
+
+```shell
+sudo apt-get install mysql-server
+```
+
+After installation is complete check if MySQL is running or not. Following command check the status of mysql service.
+
+```shell
+sudo systemctl status mysql.service
+// to start the service type
+
+sudo systemctl start mysql.service
+// to stop the service type
+
+sudo systemctl stop mysql.service
+
+```
+
+Its a good practice to secure the MySQL server. Type the following command and when asked for yes or no press Y for all.
+
+```shell
+sudo mysql_secure_installation
+```
+
+Login to MySQL Server
+
+```shell
+sudo mysql -u root -p
+```
