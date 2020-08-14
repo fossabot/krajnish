@@ -81,7 +81,6 @@ sudo systemctl start mysql.service
 // to stop the service type
 
 sudo systemctl stop mysql.service
-
 ```
 
 Its a good practice to secure the MySQL server. Type the following command and when asked for yes or no press Y for all.
@@ -95,3 +94,45 @@ Login to MySQL Server
 ```shell
 sudo mysql -u root -p
 ```
+
+List Databases
+
+```shell
+show databases;
+```
+
+Create a Database
+
+```shell
+create database DataLoginSystem;
+```
+
+![MySQL Command Line Window](/media/mysql-2.jpg "MySQL Command Line Window")
+
+Now we will create a new user which will have access only to our created database (DataLoginSystem).
+
+```shell
+CREATE USER 'userlogin'@'localhost' IDENTIFIED BY 'PassWord@12345';
+```
+
+To give all permission on our database (DataLoginSystem) to new user (userlogin) we need to first select our database then we will give permission.
+
+```shell
+use DataLoginSystem;
+GRANT ALL PRIVILEGES ON DataLoginSystem TO 'userlogin'@'localhost';
+```
+
+Always be sure to reload all the privileges.
+
+```shell
+FLUSH PRIVILEGES;
+```
+
+To check if everything is working type the following commands.
+
+```shell
+sudo mysql -u userlogin -p
+show databases;
+```
+
+![MySQL Command Line Window with New User Permission](/media/mysql-3.jpg "MySQL Command Line Window with New User Permission")
