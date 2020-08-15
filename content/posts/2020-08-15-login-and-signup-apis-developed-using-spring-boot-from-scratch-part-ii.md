@@ -16,4 +16,20 @@ tags:
   - maven
   - Java
 ---
-Coming Soon....
+Open the terminal and type the following commands.
+
+```shell
+$ cd Downloads
+$ unzip loginsignup.zip
+
+```
+
+![Unzip project](/media/unzip_project.jpg "Unzip project")
+
+Now open intelliJ or Eclipse to import the project.
+
+![Import Project](/media/open.jpg "Import Project")
+
+Wait for some time to finish the import. Project Structure at start:- 
+
+![Project Structure Start](/media/initail-project-structure.jpg "Project Structure Start")
