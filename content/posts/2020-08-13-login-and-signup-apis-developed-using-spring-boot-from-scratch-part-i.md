@@ -179,9 +179,13 @@ Now let's create our first spring boot app.
 
 1. Open [Spring Initializr](https://start.spring.io/)
 2. Setup our project as in fig at top of this post.
-3. Enter loginsignup in Artifact field.
-4. Add Spring Web, MySQL Driver, Spring Security, Spring Data JPA, & Validation as dependencies for this project.
+3. Enter **loginsignup** in Artifact field.
+4. Add **Spring Web**, **MySQL Driver**, **Spring Security**, **Spring Data JPA**, & **Validation** as dependencies for this project.
 5. Select Maven Project and Java 8.
 6. Click GENERATE to download our project.
 
+**Thank you for reading.**
 
+## What’s Next?
+
+In the next post of the series we will learn to configure our database setting, create models and repositories.
