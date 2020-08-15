@@ -181,8 +181,8 @@ Now let's create our first spring boot app.
 2. Setup our project as in fig at top of this post.
 3. Enter **loginsignup** in Artifact field.
 4. Add **Spring Web**, **MySQL Driver**, **Spring Security**, **Spring Data JPA**, & **Validation** as dependencies for this project.
-5. Select Maven Project and Java 8.
-6. Click GENERATE to download our project.
+5. Select **Maven Project** and **Java 8**.
+6. Click **GENERATE** to download our project.
 
 **Thank you for reading.**
 
