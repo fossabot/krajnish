@@ -5,10 +5,8 @@ slug: login-and-signup-api-developed-using-spring-boot-from-scratch-part-1
 draft: false
 date: 2020-08-13T16:35:58.403Z
 description: >
-  In this Part-I of the series you will learn to setup Spring Boot Environment
-  and create your
-
-  first project.
+  In this Part-I of the series you will learn to setup Spring Boot Development
+  Environment and create your first project.
 category: Spring Boot
 tags:
   - spring
@@ -147,14 +145,43 @@ We are all set with our database setup.
 
 ## IDE for Development
 
-For Eclipse
+**For Eclipse**
 
 * Go to [Eclipse](https://www.eclipse.org/downloads/) download page and download the setup file.
 * Extract the downloaded file.
-* Goto extract folder and run the installer
+* Go to extract folder and run the installer
 * Follow the steps to install Eclipse.
 
 We need to install Spring Tool Suite 4 inorder to work best with Spring Boot.
+
 * For this install the tool through Marketplace under Help tab in Eclipse.
 
 Video Link:- 
+
+**For IntelliJ IDEA**
+
+* Go to [IntelliJ IDEA](https://www.jetbrains.com/idea/) download page and download the setup file for Java developer.
+* Extract the downloaded file.
+* Go to extract folder and run the installer
+* Follow the steps to install IntelliJ IDEA.
+
+## Postman Installation
+
+It is a tool used for testing our web services. It has great user interface for making HTML request to test our API's functionality.
+
+* Go to [Postman](https://www.postman.com/downloads/) download page and download the setup file.
+* Extract the downloaded file and store in any location of your choice.
+* Now run the postman from the extract folder.
+
+Our development environment is all setup for Spring Boot Application development. 
+
+Now let's create our first spring boot app.
+
+1. Open [Spring Initializr](https://start.spring.io/)
+2. Setup our project as in fig at top of this post.
+3. Enter loginsignup in Artifact field.
+4. Add Spring Web, MySQL Driver, Spring Security, Spring Data JPA, & Validation as dependencies for this project.
+5. Select Maven Project and Java 8.
+6. Click GENERATE to download our project.
+
+
