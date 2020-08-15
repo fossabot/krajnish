@@ -12,6 +12,12 @@ description: >
 category: Spring Boot
 tags:
   - spring
+  - spring-framework
+  - spring-boot
+  - mysql
+  - Eclipse
+  - maven
+  - Java
 ---
 For Spring Boot Application Development I am using Lubuntu (a lightweight Linux distribution based on Ubuntu). You can use any platform of your choice (Windows, or MAC).
 
@@ -145,3 +151,10 @@ For Eclipse
 
 * Go to [Eclipse](https://www.eclipse.org/downloads/) download page and download the setup file.
 * Extract the downloaded file.
+* Goto extract folder and run the installer
+* Follow the steps to install Eclipse.
+
+We need to install Spring Tool Suite 4 inorder to work best with Spring Boot.
+* For this install the tool through Marketplace under Help tab in Eclipse.
+
+Video Link:- 
