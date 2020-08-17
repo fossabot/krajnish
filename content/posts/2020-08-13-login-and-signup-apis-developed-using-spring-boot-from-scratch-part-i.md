@@ -157,9 +157,7 @@ We need to install Spring Tool Suite 4 inorder to work best with Spring Boot.
 
 * For this install the tool through Marketplace under Help tab in Eclipse.
 
- [![Eclipse Setup For Spring Boot](https://rajnish.app/media/setup1_caption.jpg)](https://youtu.be/KgSYQLEs3xs "Eclipse Setup For Spring Boot")
-
-![](/media/eclipse_setup.jpg)
+ [![Eclipse Setup For Spring Boot](https://rajnish.app/media/eclipse_setup.jpg)](https://youtu.be/KgSYQLEs3xs "Eclipse Setup For Spring Boot")
 
 **For IntelliJ IDEA**
 
