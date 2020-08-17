@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://netlify.app/',
+  url: 'https://rajnish.app/',
   pathPrefix: '/',
   title: 'Blog by Rajnish Singh',
   subtitle: 'I am a Data Scientist.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-71962745-2',
   useKatex: false,
   menu: [
     {
