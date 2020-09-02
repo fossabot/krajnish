@@ -192,7 +192,7 @@ Wait for some time to finish the import. Project Structure at start:-
 
   ## Creating repository
 
-  ![Directory Structure After creating repository](/media/repository.jpg "Directory Structure After creating models")
+  ![Directory Structure After creating repository](/media/repository.jpg "Directory Structure After creating repository")
 
   ### UserRepository
 
