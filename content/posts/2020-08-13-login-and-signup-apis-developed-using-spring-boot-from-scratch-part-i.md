@@ -124,7 +124,7 @@ To give all permission on our database (DataLoginSystem) to new user (userlogin)
 
 ```shell
 use DataLoginSystem;
-GRANT ALL PRIVILEGES ON DataLoginSystem TO 'userlogin'@'localhost';
+GRANT ALL PRIVILEGES ON DataLoginSystem.* TO 'userlogin'@'localhost';
 ```
 
 Always be sure to reload all the privileges.
